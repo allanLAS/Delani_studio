@@ -14,6 +14,17 @@
   padding-top: 3em;
 
 }
+
+.what_we_do {
+  margin-top: 30px;
+  align-content: center;
+  text-align: center;
+}
+
+.container_display {
+  padding-top: 30px;
+}
+
 .top-buffer{
   margin-top: 20px;
 }
