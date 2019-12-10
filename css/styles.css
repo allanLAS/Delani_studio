@@ -40,16 +40,92 @@
   font-size: x-large;
 }
 
+/* 
 .what_we_do {
   margin-top: 30px;
   align-content: center;
   text-align: center;
+} */
+
+.click, .click1, .click2{
+  display: none;
+  margin: 20px;
 }
 
-.container_display {
-  padding-top: 30px;
+.project{
+  background-color: white;
+  opacity: 0.8;
+  
 }
 
+.project p{
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.img-4{
+  background-image: url('../images/portfolio/work4.jpg');
+  background-size: cover;
+  max-width: 240px;
+  height: 230px;
+  margin: 15px;
+}
+
+.img-3{
+  background-image: url('../images/portfolio/work3.jpg');
+  background-size: cover;
+  max-width: 240px;
+  height: 230px;
+  margin: 15px;
+}
+
+.img-2{
+  background-image: url('../images/portfolio/work2.jpg');
+  background-size: cover;
+  max-width: 240px;
+  height: 230px;
+  margin: 15px;
+}
+
+.img-1{
+  background-image: url('../images/portfolio/work1.jpg');
+  background-size: cover;
+  max-width: 240px;
+  height: 230px;
+  margin: 15px;
+}
+
+.img-5{
+  background-image: url('../images/portfolio/work5.jpg');
+  background-size: cover;
+  max-width: 240px;
+  height: 230px;
+  margin: 15px;
+}
+
+.img-6{
+  background-image: url('../images/portfolio/work6.jpg');
+  background-size: cover;
+  max-width: 240px;
+  height: 230px;
+  margin: 15px;
+}
+
+.img-7{
+  background-image: url('../images/portfolio/work7.jpg');
+  background-size: cover;
+  max-width: 240px;
+  height: 230px;
+  margin: 15px;
+}
+
+.img-8{
+  background-image: url('../images/portfolio/work8.jpg');
+  background-size: cover;
+  max-width: 240px;
+  height: 230px;
+  margin: 15px;
+}
 .top-buffer{
   margin-top: 20px;
 }
