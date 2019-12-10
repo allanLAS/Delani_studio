@@ -40,12 +40,6 @@
   font-size: x-large;
 }
 
-/* 
-.what_we_do {
-  margin-top: 30px;
-  align-content: center;
-  text-align: center;
-} */
 
 .click, .click1, .click2{
   display: none;
@@ -55,6 +49,7 @@
 .project{
   background-color: white;
   opacity: 0.8;
+  width: 90%;
   
 }
 
@@ -69,6 +64,7 @@
   max-width: 240px;
   height: 230px;
   margin: 15px;
+  width: 100%;
 }
 
 .img-3{
@@ -126,6 +122,10 @@
   height: 230px;
   margin: 15px;
 }
+
+.project{
+  margin-left: 50px;
+}
 .top-buffer{
   margin-top: 20px;
 }
@@ -160,4 +160,7 @@ footer {
   text-align: center;
   padding-top: 50px;
   align-content: center;
+}
+#row{
+  padding-left: 300px;
 }
