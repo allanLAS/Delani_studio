@@ -6,6 +6,9 @@
   color: white;
 }
 
+.about_us p {
+  font-family: 'Montserrat', sans-serif;
+}
 .services {
   text-align: center;
   background-image: url(../images/backgrounds/s_image.jpg);
@@ -13,6 +16,11 @@
   height: 50vh;
   padding-top: 3em;
 
+}
+
+.services p{
+  font-family: 'Sulphur Point', sans-serif;
+  font-size: x-large;
 }
 
 .what_we_do {
