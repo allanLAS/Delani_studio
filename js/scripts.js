@@ -1,8 +1,36 @@
-$(".main").click(function() {
-  $(this).children(".hide").slideToggle(1200);
-  $(this).children(".show").toggle(1500);
+$(document).ready(function(){
+  $("#designImage").click(function() {
+    $("#designImage").hide();
+    $("#designP").toggle();
+    $("#designP").show();
+  });
+  $("#designP").click(function(){
+    $("#designP").hide();
+    $("#designImage").toggle();
+    $("#designImage").show();
+  });
 });
-
-$(".card").hover(function () {
-  $(this).children(".card-1").fadeToggle(1000, "linear");
+$(document).ready(function(){
+  $("#devImage").click(function() {
+    $("#devImage").hide();
+    $("#devP").toggle();
+    $("#devP").show();
+  });
+  $("#devP").click(function(){
+    $("#devP").hide();
+    $("#devImage").toggle();
+    $("#devImage").show();
+  });
+});
+$(document).ready(function(){
+  $("#prodImage").click(function() {
+    $("#prodImage").hide();
+    $("#prodP").toggle();
+    $("#prodP").show();
+  });
+  $("#prodP").click(function(){
+    $("#prodP").hide();
+    $("#prodImage").toggle();
+    $("#prodImage").show();
+  });
 });
