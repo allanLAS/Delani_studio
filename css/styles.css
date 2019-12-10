@@ -11,6 +11,21 @@
 .about_us p {
   font-family: 'Montserrat', sans-serif;
 }
+
+#designP {
+  display: none;
+  text-align: center;
+}
+
+#devP {
+  display: none;
+  text-align: center;
+}
+
+#prodP {
+  display: none;
+  text-align: center;
+}
 .services {
   text-align: center;
   background-image: url(../images/backgrounds/s_image.jpg);
@@ -47,9 +62,22 @@
   margin-top: 40px;
 
 }
-textarea{
-  width: 100%;
-  margin-top:20px;
+
+#NAME {
+  background: transparent;
+  width: 70px;
+  border: 1px solid;
+}
+
+#EMAIL {
+  background: transparent;
+  width: 40%;
+}
+
+#MESSAGE {
+  background: transparent;
+  width: 50%;
+  
 }
 
 footer {
